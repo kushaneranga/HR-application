@@ -1,9 +1,14 @@
+# These are some examples of commonly ignored file patterns.
+
+# Node artifact files
 /node_modules
 /public/build
 /public/hot
 /public/storage
 /storage/*.key
 /vendor
+
+# .env
 .env
 .env.backup
 .phpunit.result.cache
@@ -12,5 +17,17 @@ Homestead.yaml
 auth.json
 npm-debug.log
 yarn-error.log
+
+# JetBrains IDE
 /.idea
+
+# vscode
 /.vscode
+
+# Compiled css,js
+public/css
+public/js
+
+# lock files
+package-lock.json
+composer.lock
