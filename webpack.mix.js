@@ -16,10 +16,8 @@ mix
         'resources/sass/app.scss',
         'public/css/app.css'
     )
-    .minify('public/css/app.css')
     .sass(
         'resources/sass/pages/home.scss',
         'public/css/pages/home.css'
     )
-    .minify('public/css/pages/home.css')
     .sourceMaps();
