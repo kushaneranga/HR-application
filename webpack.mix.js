@@ -22,3 +22,4 @@ mix
         'public/css/pages/home.css'
     )
     .minify('public/css/pages/home.css')
+    .sourceMaps();
