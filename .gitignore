@@ -27,6 +27,7 @@ yarn-error.log
 # Compiled css,js
 public/css
 public/js
+public/mix-manifest.json
 
 # lock files
 package-lock.json
