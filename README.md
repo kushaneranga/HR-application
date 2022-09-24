@@ -107,26 +107,47 @@ VITE_PUSHER_SCHEME="${PUSHER_SCHEME}"
 VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 
 ```
+
 8. Import hr-application.sql file in the database folder, or run migrations
 Use this command to run migrations and seeders
-
 ```
 php artisan migrate --seed
 
 ```
-9. Start the local server and browser to your app.
+9. Install Node Dependencies
+This means you can immediately install your Node dependencies.
+Use this command to run npm install
+```
+npm install
+
+```
+10. Compilation
+When you're ready, let's compile.
+```
+npx mix
+
+```
+
+11. If it's a pain to re-run "npx mix" every time you change a file.
+Instead, let's have Mix (and ultimately webpack) watch these files for changes.
+```
+npx mix watch
+
+```
+
+12. Start the local server and browser to your app.
 This command will start the development server
 ```
 php artisan serve
 
 ```
 
-10. Open the address in the terminal in your browser.Usually address is usually like this:
+13. Open the address in the terminal in your browser.Usually address is usually like this:
 ```
 http://127.0.0.1:8000
 
 ```
-11. Enjoy and make sure to star the repo :).
+14. Enjoy and make sure to star the repo :).
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
