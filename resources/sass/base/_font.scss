@@ -1,0 +1,87 @@
+// The relative path to the fonts directory
+$font-source-path: "../../fonts/" !default;
+
+// Roboto Font
+// Thin
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('#{$font-source-path}Roboto/Roboto-Thin.ttf') format('truetype');
+    font-display: swap;
+}
+
+// Light
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('#{$font-source-path}Roboto/Roboto-Light.ttf') format('truetype');
+    font-display: swap;
+}
+
+// Medium
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('#{$font-source-path}Roboto/Roboto-Medium.ttf') format('truetype');
+    font-display: swap;
+}
+
+// Bold
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('#{$font-source-path}Roboto/Roboto-Bold.ttf') format('truetype');
+    font-display: swap;
+}
+
+// Black
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url('#{$font-source-path}Roboto/Roboto-Black.ttf') format('truetype');
+    font-display: swap;
+}
+
+// Anton Font
+@font-face {
+    font-family: 'Anton';
+    src: url('#{$font-source-path}Anton/Anton-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+// Light
+.roboto100 {
+    font-family: 'RobotoThin', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Light
+.roboto300 {
+    font-family: 'RobotoLight', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Regular
+.roboto400 {
+    font-family: 'RobotoRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Medium
+.roboto500 {
+    font-family: 'RobotoMedium', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Bold
+.roboto700 {
+    font-family: 'RobotoBold', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Black
+.roboto900 {
+    font-family: 'RobotoBlack', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
