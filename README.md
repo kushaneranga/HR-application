@@ -31,14 +31,16 @@ composer install
 
 
 4. Create your database
-<p>Use this command to connect MySQL from the command line</p>
-<p>replacing username with your username</p>
+
+Use this command to connect MySQL from the command line
+
+replacing username with your username
 ```
 mysql -u username -p
 
 ```
 
-<p>Use this command to Create a MySQL Database</p>
+Use this command to Create a MySQL Database
 ```
 CREATE DATABASE hr_application;
 
@@ -121,34 +123,40 @@ VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 ```
 
 8. Import hr-application.sql file in the database folder, or run migrations
+
 Use this command to run migrations and seeders
 ```
 php artisan migrate --seed
 
 ```
 9. Install Node Dependencies
-<p>This means you can immediately install your Node dependencies.
-Use this command to run npm install</p>
+
+This means you can immediately install your Node dependencies.
+
+Use this command to run npm install.
 ```
 npm install
 
 ```
 10. Compilation
-<p>When you're ready, let's compile.</p>
+
+When you're ready, let's compile.
 ```
 npx mix
 
 ```
 
 11. If it's a pain to re-run "npx mix" every time you change a file.
-<p>Instead, let's have Mix (and ultimately webpack) watch these files for changes.</p>
+
+Instead, let's have Mix (and ultimately webpack) watch these files for changes.
 ```
 npx mix watch
 
 ```
 
 12. Start the local server and browser to your app.
-<p>This command will start the development server</p>
+
+This command will start the development server
 ```
 php artisan serve
 
