@@ -1,20 +1,20 @@
-@extends('layouts.app')
+@extends('layouts.app_normal')
 
-@section('content')
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-3 col-md-2"></div>
-        @include(
-            'partials.home_login'
-        )
-    </div>
-</div>
-
+@section('local-styles')
+    <link rel="stylesheet" type="text/css" href="/css/pages/home.css">
 @endsection
 
-{{-- Footer  styles --}}
+@section('content')
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-2"></div>
+            @include(
+                'partials.home_login'
+            )
+        </div>
+    </div>
+@endsection
 
-@section('page-specific-footer-css')
-
+@section('local-scripts')
+    <script src="" charset=""></script>
 @endsection
