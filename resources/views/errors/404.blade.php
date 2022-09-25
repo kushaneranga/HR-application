@@ -1,9 +1,5 @@
 @extends('layouts.app_normal')
 
-@section('meta-data')
-    @include('layouts.includes.meta_data', ['seo_data' => [], 'title' => 'Matter of Stuff | 404'])
-@endsection
-
 @section('local-styles')
     <link rel="stylesheet" href="/css/error.css">
 @endsection
