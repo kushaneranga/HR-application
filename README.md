@@ -30,7 +30,19 @@ composer install
 ```
 
 
-4. Create your database 
+4. Create your database
+<p>Use this command to connect MySQL from the command line</p>
+<p>replacing username with your username</p>
+```
+mysql -u username -p
+
+```
+
+<p>Use this command to Create a MySQL Database</p>
+```
+CREATE DATABASE hr_application;
+
+```
 
 5. Rename .env.example to .env Or copy it and paste at project root directory and name the file .env.You can also use this command.
 
@@ -115,28 +127,28 @@ php artisan migrate --seed
 
 ```
 9. Install Node Dependencies
-This means you can immediately install your Node dependencies.
-Use this command to run npm install
+<p>This means you can immediately install your Node dependencies.
+Use this command to run npm install</p>
 ```
 npm install
 
 ```
 10. Compilation
-When you're ready, let's compile.
+<p>When you're ready, let's compile.</p>
 ```
 npx mix
 
 ```
 
 11. If it's a pain to re-run "npx mix" every time you change a file.
-Instead, let's have Mix (and ultimately webpack) watch these files for changes.
+<p>Instead, let's have Mix (and ultimately webpack) watch these files for changes.</p>
 ```
 npx mix watch
 
 ```
 
 12. Start the local server and browser to your app.
-This command will start the development server
+<p>This command will start the development server</p>
 ```
 php artisan serve
 
@@ -150,7 +162,7 @@ http://127.0.0.1:8000
 14. Enjoy and make sure to star the repo :).
 
 # Requirement
-    1. PHP: "^7.1 || ^8.0"
+    1. PHP: "^8.0.2"
 	2. MySQL
 	3. nmp: 8.15.0
 
