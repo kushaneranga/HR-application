@@ -1,3 +1,3 @@
-<footer id="main-footer-section">
+<div id="main-header-section" class="">
 
-</footer>
+</div>
