@@ -1,7 +1,7 @@
 @extends('layouts.app_normal')
 
 @section('local-styles')
-    <link rel="stylesheet" type="text/css" href="/css/pages/home.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/pages/home.css') }}">
 @endsection
 
 @section('content')

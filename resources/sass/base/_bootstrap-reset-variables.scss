@@ -1,0 +1,52 @@
+$spacer: 16px;
+
+// variable overide
+$grid-gutter-width: 20px;
+
+/* input variables overide */
+$input-font-family: $mul;
+$input-font-size: 18px;
+$input-line-height: 25px;
+$input-color: $d-gray;
+$input-border-color: $m-gray;
+$font-family-base:$mul;
+$font-family-sans-serif:$mul;
+$font-family-monospace:$mul;
+
+/* colors */
+$primary: $b-green;
+$secondary: $d-gray;
+
+
+$btn-border-radius:           2px !default;
+$btn-border-radius-sm:        2px !default;
+$btn-border-radius-lg:        2px !default;
+
+
+/* 
+$spacer: 20px;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+); */
+
+/* form input */
+$input-padding-y:                       5px;
+$input-padding-x:                       5px;
+$input-font-family:                     $mul;
+$input-font-size:                       14px;
+$input-font-weight:                     400;
+$input-line-height:                     22px;
+
+$input-color:                           $d-gray;
+$input-border-color:                    $l-gray;
+$input-border-width:                    1px;
+$input-box-shadow:                      none;
+
+$input-border-radius:                   2px;
+$input-focus-box-shadow:                none;
+$input-placeholder-color:               $d-gray;
