@@ -4,6 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="preload" href="/css/app.css" as="style">
+    <link rel="preload" href="{{ asset('/css/app.css') }}" as="style">
     @yield('local-styles')
 </head>
